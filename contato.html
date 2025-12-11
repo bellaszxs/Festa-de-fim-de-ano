@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+        <h1>Guia de Festas de Fim de Ano</h1>
+    </header>
+
+    <div class="container">
+       <aside class="sidebar">
+    <nav>
+        <ul>
+            <li><a href="index.html" class="[active_index]">Início e Boas-Vindas</a></li>
+            <li><a href="celebracoes.html" class="[active_celebracoes]">Celebrações e Atividades</a></li>
+            <li><a href="personalidades.html" class="[active_personalidades]">Personalidades do Natal</a></li>
+            <li><a href="organizacao.html" class="[active_organizacao]">organizacao e Segurança</a></li>
+            <li><a href="videos.html" class="[active_videos]">Sugestões de Vídeos</a></li>
+            <li><a href="contato.html" class="[active_contato]">Fale Conosco</a></li>
+        </ul>
+    </nav>
+</aside>
+        <main class="content">
+            <h1>Fale Conosco!</h1>
+            
+            <div class="contact-form-container">
+                <form class="contact-form" action="#" method="POST">
+                    
+                    <label for="nome">nome completo:</label>
+                    <input type="text" id="nome" name="nome_completo" required>
+                    
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="assunto">assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                    
+                    <label for="mensagem">mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="enviar">enviar</button>
+                        <button type="reset" class="limpar">limpar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
