@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Validação do formulário
-const form = document.getElementById("contatoForm");
+document.querySelector('.contact-form').addEventListener('submit', function(event) {
+});
 if (form) {
   form.addEventListener("submit", (e) => {
     const email = form.email.value;
@@ -27,3 +28,4 @@ if (form) {
     }
   });
 }
+
